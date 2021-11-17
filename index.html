@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>蒼井珈琲</title>
+        <!-- リンク -->
+        <!-- ファビコン -->
+        <link rel="icon" type="image/png" href="img/favicon_beans.png">
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- FontAwesome -->
+        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    </head>
+
+<body>
+    <div class="wrap">
+        <!-- ヘッダー -->
+        <header class="header">
+            <div class="header-wrapper">
+                <!-- ヘッダーロゴ -->                
+                <div class="header-text"> <!-- ←動画上に文字重ねるためのクラス -->
+                    <div class="head-nav-wrapper">
+                        <p class="header-logo">
+                            <a href="index.html">
+                                <img class="logo" src="img/logo-gray.png" alt="蒼井珈琲" width="155">
+                            </a>
+                        </p>
+                        <!-- ヘッダーナビ ベース -->
+                        <nav class="header-nav">
+                            <ul class="header-nav-list">
+                                <li>
+                                    <a href="news.html">
+                                        <span class="en">NEWS</span>
+                                        <span class="jp">お知らせ一覧</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        <span class="en">CONTACT</span>
+                                        <span class="jp">お問い合わせ</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="recruit.html">
+                                        <span class="en">RECRUIT</span>
+                                        <span class="jp">採用情報</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- ヘッダーナビ SP -->
+                        <nav class="sp-header-nav">
+                            <div class="sp-btn-menu">
+                                <i class="fas fa-bars menu-icon"></i>
+                            </div>
+                            <ul class="sp-header-nav-list">
+                                <li><a href="news.html">お知らせ一覧</a></li>
+                                <li><a href="contact.html">お問い合わせ</a></li>
+                                <li><a href="recruit.html">採用情報</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                        <h1 class="header-ttl ttl">
+                            こだわりの珈琲と<br>
+                            癒しの時間をあなたに。
+                        </h1>
+                        <p class="header-description">
+                            10種類以上の豆を自家焙煎でご用意しています。<br>
+                            一杯の珈琲に、真心を込めて。
+                        </p>
+                </div>
+                <div class="header-pattern"></div>
+                <!-- PC背景動画 -->
+                <video src="img/coffeebeans.mp4" poster="img/beans.jpg" autoplay loop muted></video>
+            </div>
+        </header>
+
+        <!-- ここからメイン -->
+        <main>
+            <!-- MENU -->
+            <section id="menu">
+                <div class="container">
+
+                    <div class="ttl-wrapper">
+                        <h2 class="ttl">MENU</h2>
+                        <small>メニュー</small>
+                    </div>
+    
+                    <div class="grid">
+                        <div class="item">
+                            <a class="grid-gallery" href="img/hotcofee.jpg">
+                                <img src="img/hotcofee.jpg" alt="約10種類のストレートコーヒーをご用意。">
+                            </a>
+                            <p>各種ストレートコーヒー</p>
+                            <p>530円(税込)</p>
+                        </div>
+                        <div class="item">
+                            <a class="grid-gallery" href="img/late.jpg">
+                                <img src="img/late.jpg" alt="目でも楽しめる、ラテアート付きのカフェラテ。">
+                            </a>
+                            <p>カフェラテ</p>
+                            <p>600円(税込)</p>
+                        </div>   
+                        <div class="item">
+                            <a class="grid-gallery" href="img/coffee.milk.jpg">
+                                <img src="img/coffee.milk.jpg" alt="当店オリジナルブレンド。濃厚な味わいと程よい苦味が特徴。">
+                            </a>
+                            <p>オリジナルブレンドコーヒー</p>
+                            <p>530円(税込)</p>
+                        </div>
+                        <div class="item">
+                            <a class="grid-gallery" href="img/icecoffee.jpg">
+                                <img src="img/icecoffee.jpg" alt="アイスコーヒー専用ブレンドを使用。">
+                            </a>
+                            <p>オリジナルブレンドアイスコーヒー</p>
+                            <p>530円(税込)</p>
+                        </div>
+                        <div class="item">
+                            <a class="grid-gallery" href="img/pancake.jpg">
+                                <img src="img/pancake.jpg" alt="ふわふわ食感のパンケーキ♪">
+                            </a>
+                            <p>パンケーキ</p>
+                            <p>800円(税込)</p>
+                        </div>
+                        <div class="item">
+                            <a class="grid-gallery" href="img/chococake.jpg">
+                                <img src="img/chococake.jpg" alt="当店自慢のチョコレートケーキ。">
+                            </a>
+                            <p>チョコレートケーキ</p>
+                            <p>400円(税込)</p>
+                        </div>
+                    </div>
+                </div> <!-- .container END -->
+            </section>
+
+            <!-- ABOUT ベース -->
+            <section id="about">
+                <div class="ttl-wrapper">
+                    <h2 class="ttl">ABOUT</h2>
+                    <small>当店について</small>
+                </div>
+                    <div class="about-content">
+                    <img src="img/drip2.jpg" alt="ハンドドリップ">
+                    <div class="about-text">
+                        <h3 class="about-sub-ttl">Hand Drip</h3>
+                        <h4>ハンドドリップへのこだわり</h4>
+                        <p>当店では、注文を受けてから一杯ずつ丁寧にハンドドリップしています。
+                            ハンドドリップならではの、コクと豆の深い味わいをお楽しみください。    
+                        </p>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text2">
+                        <h3 class="about-sub-ttl about-sub-ttl2">Relax Space</h3>
+                        <h4>リラックスできる空間を追求</h4>
+                        <p>当店では、お客様にゆったりとした時間を過ごして頂くために席の間隔を広く設けています。
+                            美味しいコーヒーと開放的な空間で、リラックスした時間をお過ごしください。
+                        </p>
+                    </div>
+                    <img src="img/cafe.jpg" alt="リラックス">
+                </div>
+            </section>
+
+            <!-- ABOUT スマホ -->
+            <section id="about-sp">
+                <div class="ttl-wrapper">
+                        <h2 class="ttl">ABOUT</h2>
+                        <small>当店について</small>
+                </div>
+                <div class="about-content-sp">
+                    <img src="img/drip2.jpg" alt="ハンドドリップ">
+                        <div class="sp-text">
+                            <h3 class="about-sub-ttl-sp about-sub-ttl">Hand Drip</h3>
+                            <h4>ハンドドリップへのこだわり</h4>
+                            <p>当店では、注文を受けてから一杯ずつ丁寧にハンドドリップしています。<br>
+            
+                                ハンドドリップならではの、コクと豆の深い味わいをお楽しみください。
+                            </p>
+                        </div>
+                </div>
+                <div class="about-content-sp">
+                    <img src="img/cafe.jpg" alt="リラックス">
+                    <div class="sp-text">
+                        <h3 class="about-sub-ttl about-sub-ttl2">Relax Space</h3>
+                        <h4>リラックスできる空間を追求</h4>
+                        <p>当店では、お客様にゆったりとした時間を過ごして頂くために席の間隔を広く設けています。<br>
+                            美味しいコーヒーと開放的な空間で、リラックスした時間をお過ごしください。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- NEWS -->
+            <section id="news">
+                <div class="container">
+                    <div class="ttl-wrapper">
+                        <h2 class="ttl">NEWS</h2>
+                        <small>ニュース</small>
+                    </div>
+                    <ul class="news-list">
+                        <li>
+                            <a class="news-list-link" href="artical.html">
+                                <div class="category-date">
+                                    <span class="category-date__topics">お知らせ</span>
+                                    <span class="category-date__date">2021.7.10</span>
+                                </div>
+                                <span class="category-date__text">営業時間変更のご案内</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  class="news-list-link" href="artical.html">     
+                                <div class="category-date">
+                                    <span class="category-date__job">採用情報</span>
+                                    <span class="category-date__date">2021.7.2</span>
+                                </div>
+                                <span class="category-date__text">一緒に働く仲間を募集しています！</span>
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a class="news-list-link" href="artical.html">
+                            
+                                <div class="category-date">
+                                    <span class="category-date__limited">限定メニュー</span>
+                                    <span class="category-date__date">2021.6.30</span>
+                                </div>
+                                <span class="category-date__text">夏の限定メニュー登場！</span>
+                            
+                        </a>
+                        </li>
+                        <li>
+                            <a  class="news-list-link" href="artical.html">
+                                <div class="category-date">
+                                    <span class="category-date__topics">お知らせ</span>
+                                    <span class="category-date__date">2021.6.3</span>
+                                </div>
+                                <span class="category-date__text">定休日のご案内</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- ボタン -->
+                    <div class="btn-wrap"><a class="btn" href="news.html">お知らせ一覧を見る</a></div>
+                </div> <!-- .container END -->
+            </section>    
+        </main>
+
+        <!-- フッター -->
+        <footer class="footer">
+            <div class="container">
+                <!-- フッター アクセス情報&マップ -->
+                <div class="footer-access">
+                    <div class="footer-access-wrapper">
+                        <a href="index.html"><img class="logo" src="img/logo-gray.png" alt="蒼井珈琲" width="155"></a>
+                        <p>
+                        住所：東京都渋谷区<br>
+                        〇〇〇〇〇〇〇〇 111-11-1<br>
+                        電話：03-1111-1111<br>
+                        営業時間：9：00～20:00<br>
+                        定休日：毎週火曜日
+                        </p>
+                        <!-- SNS -->
+                        <ul class="footer-sns-list">
+                                <li class="facebook"><a href="index.html"><i class="fab fa-facebook-f"></i></a></li> 
+                            <li class="instagram"><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                            <li class="twitter"><a href="index.html"><i class="fab fa-twitter"></i> </a></li>
+                        </ul>
+                    </div>
+                    <!-- Googleマップ -->
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25931.283161264608!2d139.67510641839078!3d35.66689559818369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb2eb3108d1%3A0xf11cd9b2395b6677!2z5p2x5Lqs6YO95riL6LC35Yy6!5e0!3m2!1sja!2sjp!4v1627034274938!5m2!1sja!2sjp" width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <!-- コピーライト -->
+                <small class="copyright">©copyright</small>
+                <!-- トップへ戻るボタン -->
+                <div id="page-top">
+                    <a href="#"></a>
+                </div>
+            </div> <!-- .container END -->
+        </footer>
+        
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
