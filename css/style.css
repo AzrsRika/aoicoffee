@@ -944,7 +944,7 @@ input[type='checkbox']:checked +span::before {
         display: block;
         text-align: start;
         margin: 0;
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
     .text {
         margin: 30px 50px;
